@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav {
+  background-color: #9b6b9b;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 3rem;
+}
+
+.nav ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  background-color: #cecece;
+}
+
+.coinContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1200px;
+}
+
+.coinContainer .coinRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.coinContainer .coinRow .coin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 24px;
+  min-width: 300px;
+  color: #d7d7d7;
+}
+
+.coinContainer .coinRow .coin img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.coinContainer .coinRow .coin h1 {
+  font-size: 16px;
+  width: 150px;
+}
+
+.coinContainer .coinRow .coin .coinSymbol {
+  text-transform: uppercase;
+}
+
+.coinContainer .coinRow .coinData .coinDataInner {
+  color: #d7d7d7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.coinContainer .coinRow .coinData .coinDataInner .coinPrice {
+  width: 110px;
+}
+
+.coinContainer .coinRow .coinData .coinDataInner .coinVolume {
+  width: 155px;
+}
+
+.coinContainer .coinRow .coinData .coinDataInner .coinPercent {
+  width: 100px;
+}
+
+.coinContainer .coinRow .coinData .coinDataInner .red {
+  color: #f00606;
+}
+
+.coinContainer .coinRow .coinData .coinDataInner .green {
+  color: #11d811;
+}
+
+.coinContainer .coinRow .coinData .coinDataInner .coinMarketCap {
+  width: 230px;
+}
+
+.coinApp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 64px 0 64px 0;
+  color: black;
+  background-color: #1f1f1f;
+  min-height: 1280px;
+}
+
+.coinApp .coinSearch {
+  margin-bottom: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.coinApp .coinSearch h1 {
+  color: #d7d7d7;
+}
+
+.coinApp .coinSearch .coinText {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.coinApp .coinSearch .coinInput {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background-image: linear-gradient(-225deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
+  color: #e2e2e2;
+}
+
+.coinApp .coinInput::-webkit-input-placeholder {
+  color: #e2e2e2;
+}
+
+.coinApp .coinInput:-ms-input-placeholder {
+  color: #e2e2e2;
+}
+
+.coinApp .coinInput::-ms-input-placeholder {
+  color: #e2e2e2;
+}
+
+.coinApp .coinInput::placeholder {
+  color: #e2e2e2;
+}
+/*# sourceMappingURL=style.css.map */
